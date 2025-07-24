@@ -1,0 +1,15 @@
+{
+	"name": "cloudflare-docker",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev",
+		"wrangler": "wrangler dev",
+		"deno": "deno run --allow-net --allow-env src/deno.ts"
+	},
+	"devDependencies": {
+		"wrangler": "^4.20.3",
+		"deno": "^2.2.0"
+	}
+}
